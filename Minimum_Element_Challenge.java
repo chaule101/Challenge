@@ -2,6 +2,14 @@ package Array;
 
 import java.util.Arrays;
 import java.util.Scanner;
+// - Write a method called readInteger() with a parameter called 'count' that represents how many integers the user needs to enter.
+// - The method needs to read from the console until all the numbers are entered, and then return an array containing the numbers entered
+// - Write the method findMin() and findMax() with the array as a parameter. The method needs to return the minimum, maximum value in the array
+// - In the main() method read the count from the console and call the method readInteger() with the count parameter
+// - Then call the findMin() findMax() method passing the array returned from the call to the readInteger() method.
+// - Finally, print the minimum and maximum element in the array.
+// TIP : 
+// create a Scanner as a static field to help with data input
 
 public class Minimum_Element_Challenge {
     public static Scanner sc = new Scanner(System.in);
